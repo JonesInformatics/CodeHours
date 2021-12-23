@@ -1,8 +1,8 @@
 
-hours_today = []
+#hours_today = []
 def code_hours(x):
     '''function to determine how many hours I have coded'''
-    hours_today = 'x'
+    hours_today = x
     tot_hours = 497.45
     new_tots_hours = hours_today + tot_hours
     
@@ -10,4 +10,4 @@ def code_hours(x):
 
     #print(hours)
 
-code_hours()
+code_hours(1.1)
